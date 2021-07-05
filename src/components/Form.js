@@ -12,7 +12,7 @@ const Form = ({addTodo}) =>{
 
         e.preventDefault();
 
-        if(inputValue.trim()=="") return;
+        if(inputValue.trim()==="") return;
         addTodo({title: inputValue, completed: false});
         setInputValue("");
     }
